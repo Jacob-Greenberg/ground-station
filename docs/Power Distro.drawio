@@ -1,0 +1,181 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram name="Page-1" id="BmsphvBiTSIqcrOnCQNT">
+    <mxGraphModel dx="951" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-46" value="Waterproof Container" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="466.25" y="30" width="107.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-1" value="Waterproof Container" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="360" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-2" value="Raspberry Pi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-3" value="GS-232B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-4" value="G-5500 Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-5" value="USB to Serial" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="360" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-9" value="EL Rotator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-12" value="5v 12v 10A&lt;div&gt;Switching PSU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-13" value="Power Strip" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-14" value="12v DC" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-12" target="6UWC6E-EJ1R1XzzXgao2-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="150" as="sourcePoint" />
+            <mxPoint x="20" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-15" value="ICOM 905&lt;br&gt;Head Unit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-16" value="USB C" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-2" target="6UWC6E-EJ1R1XzzXgao2-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="160" as="sourcePoint" />
+            <mxPoint x="360" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-17" value="ICOM 905&lt;div&gt;Radio&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-18" value="Ethernet (PoE)" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-15" target="6UWC6E-EJ1R1XzzXgao2-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="300" as="sourcePoint" />
+            <mxPoint x="510" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-20" value="Nooelec SDR&lt;div&gt;w/ Bias T&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-21" value="USB A" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-2" target="6UWC6E-EJ1R1XzzXgao2-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="160" as="sourcePoint" />
+            <mxPoint x="250" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-22" value="Nooelec LNA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-23" value="Coaxial" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-20" target="6UWC6E-EJ1R1XzzXgao2-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="100" as="sourcePoint" />
+            <mxPoint x="250" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-24" value="RX Antenna" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-25" value="Coaxial" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-22" target="6UWC6E-EJ1R1XzzXgao2-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="110" as="sourcePoint" />
+            <mxPoint x="490" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-26" value="TX Antenna" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-27" value="Coaxial" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-17" target="6UWC6E-EJ1R1XzzXgao2-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="150" as="sourcePoint" />
+            <mxPoint x="650" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-28" value="GHz Band Antenna" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-29" value="10GHz Transverter" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-30" value="Propriety" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-17" target="6UWC6E-EJ1R1XzzXgao2-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="230" as="sourcePoint" />
+            <mxPoint x="650" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-31" value="Coaxial" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-29" target="6UWC6E-EJ1R1XzzXgao2-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="230" as="sourcePoint" />
+            <mxPoint x="650" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-32" value="12v DC" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-12" target="6UWC6E-EJ1R1XzzXgao2-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="310" as="sourcePoint" />
+            <mxPoint x="170" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-33" value="5v DC" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-12" target="6UWC6E-EJ1R1XzzXgao2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="290" as="sourcePoint" />
+            <mxPoint x="290" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-34" value="AZ Rotator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-35" value="6pin" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-34" target="6UWC6E-EJ1R1XzzXgao2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="610" as="sourcePoint" />
+            <mxPoint x="160" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-37" value="6pin" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-9" target="6UWC6E-EJ1R1XzzXgao2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="483" as="sourcePoint" />
+            <mxPoint x="170" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-38" value="120v AC" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-13" target="6UWC6E-EJ1R1XzzXgao2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="270" as="sourcePoint" />
+            <mxPoint x="70" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-39" value="120v AC" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-13" target="6UWC6E-EJ1R1XzzXgao2-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="250" as="sourcePoint" />
+            <mxPoint x="-80" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-40" value="Beeper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-41" value="Audio" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-2" target="6UWC6E-EJ1R1XzzXgao2-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="140" as="sourcePoint" />
+            <mxPoint x="250" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-42" value="Propriety" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-3" target="6UWC6E-EJ1R1XzzXgao2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="390" as="sourcePoint" />
+            <mxPoint x="160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-43" value="USB A" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-2" target="6UWC6E-EJ1R1XzzXgao2-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="172" as="sourcePoint" />
+            <mxPoint x="250" y="128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UWC6E-EJ1R1XzzXgao2-44" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Serial/RS232&lt;/span&gt;" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6UWC6E-EJ1R1XzzXgao2-5" target="6UWC6E-EJ1R1XzzXgao2-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="420" as="sourcePoint" />
+            <mxPoint x="90" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

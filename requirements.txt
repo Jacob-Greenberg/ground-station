@@ -1,0 +1,4 @@
+skyfield
+requests
+pyserial
+python-dotenv

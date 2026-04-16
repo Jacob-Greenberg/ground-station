@@ -1,0 +1,23 @@
+[project]
+name = "leopardsat-ground-station"
+version = "0.0.0rc1"
+description = "Ground Station Software for LeopardSat"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyserial>=3.5",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "skyfield>=1.54",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["TD", "EM101", "D401", "F401", "G004", "TRY003"]
+
+[tool.ruff.format]
+indent-style = "space"
+quote-style = "double"
